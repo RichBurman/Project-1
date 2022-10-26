@@ -108,3 +108,33 @@ h1, h2 {
 #cover-text, #cover-text h2 {
     color: #fff;
 }
+
+/* Upcoming Games on Home Page */
+
+.container {
+    display: flex;
+    height: 300px;
+    width: 100%;
+
+}
+
+.container img {
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    padding: 5px;
+    min-height: 300px;
+    min-width: 300px;
+}
+
+.container p {
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    vertical-align: center;
+    background-color: #252525;
+    padding: 5px;
+    border: 5px solid #fff;
+    color: #fff;
+}
