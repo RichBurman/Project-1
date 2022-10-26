@@ -24,3 +24,75 @@
             </ul>
         </nav>
     </header>
+    <hr>
+    <section class="signup">
+        <form action="https://formdump.codeinstitute.net" method="post">
+            <fieldset>
+                <legend>Your Details</legend>
+
+                <div>
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div>
+                    <label for="email">Email Address</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+                <div>
+                    <label for="address">Address</label>
+                    <br>
+                    <textarea name="address" id="address" cols="80%" rows="4" placeholder="Your address"> required</textarea>
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <br>
+                    <select name="age" id="age">
+                        <option value="under_20">Under 20</option>
+                        <option value="20_30">20-30</option>
+                        <option value="30_40">30-40</option>
+                        <option value="40_50">40-50</option>
+                        <option value="50_60">50-60</option>
+                        <option value="60+">60+</option>
+                    </select>
+                </div>
+                <br>
+                <p>Season Ticket Holder</p>
+                <div>
+                    <input type="radio" id="yes" name="seasonticket" value="Yes" required>
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="seasonticket" value="No" required>
+                    <label for="no">No</label>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Upcoming Games</legend>
+                <br>
+                <div>
+                    <p>Which games would you be interested in travelling to with us?</p>
+                </div>
+                <div>
+                    <input type="checkbox" name="arsenalgame" id="arsenal-checkbox">
+                    <label for="arsenal-checkbox">Arsenal</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="mancitygame" id="mancity-checkbox">
+                    <label for="mancity-checkbox">Manchester City</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="chelseagame" id="chelsea-checkbox">
+                    <label for="chelsea-checkbox">Chelsea</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="tottenhamgame" id="Tottenham-checkbox">
+                    <label for="tottenham-checkbox">Tottenham</label>
+                </div>
+            </fieldset>
+
+            <input class ="submitbutton" type="submit" value="Submit">
+            <br>
+            <input class="submitbutton" type="reset" value="Reset Form">
+        </form>
+    </section>
