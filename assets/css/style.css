@@ -184,3 +184,38 @@ hr {
     margin: 0;
     color: #fff;
 }
+
+/* google maps */
+
+#map-wrapper {
+    height: 300px;
+    margin-top: 20px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+/* social links footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+    background-color: #3a3a3a;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #fff;
+}
