@@ -84,3 +84,27 @@ h1, h2 {
     }
 }
 
+/* cover text for hero image */
+
+#cover-text {
+    font-size: 130%;
+    font-family: Bebas Neue, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 300px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(0, 0, 0, .7);
+
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
