@@ -111,14 +111,19 @@ h1, h2 {
 
 /* Upcoming Games on Home Page */
 
-.container {
+.container1 {
     display: flex;
     height: 300px;
     width: 100%;
-
 }
 
-.container img {
+.container2 {
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+
+.container1 img {
     width: 25%;
     height: 300px;
     object-fit: cover;
@@ -128,9 +133,9 @@ h1, h2 {
     min-width: 300px;
 }
 
-.container p {
+.container2 p {
     width: 25%;
-    height: 100px;
+    height: 80px;
     text-align: center;
     vertical-align: center;
     background-color: #252525;
