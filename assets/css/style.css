@@ -191,6 +191,7 @@ hr {
 .travelsection ul li {
     margin: 0;
     color: #fff;
+    list-style-type: none;
 }
 
 /* google maps */
@@ -282,4 +283,47 @@ input[type=reset] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+/* Games Pages */
+
+#game-outer {
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.gamesection {
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 55%;
+    margin: auto;
+    border: 2px solid #fff;
+}
+
+.gamesection .selected {
+    align-self: center;
+    width: 33%;
+}
+
+.gamesection img {
+    height: 200px;
+    width: 300px;
+    align-self: center;
+    padding: 5px;
+}
+
+.gamesection h2 {
+    margin: 0;
+    color: #fff;
+}
+
+.gamesection ul li {
+    margin: 0;
+    color: #fff;
+    list-style-type: none;
+    padding: 2px;
 }
