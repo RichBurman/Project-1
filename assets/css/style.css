@@ -392,7 +392,6 @@ input[type=reset] {
     #menu {
         clear: left;
         float: left;
-        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -426,5 +425,14 @@ input[type=reset] {
         position: absolute;
         
     }
+
+    .gamesection .selected {
+        align-self: center;
+        width: 33%;
+        margin: auto;
+        max-width: 33%;
+        flex: 1;
+        float:left;
+        padding:10%;
 
 }
