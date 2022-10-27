@@ -115,6 +115,7 @@ h2 {
 
 #cover-text, #cover-text h2 {
     color: #fff;
+    text-align: center;
 }
 
 /* Upcoming Games on Home Page */
@@ -411,6 +412,19 @@ input[type=reset] {
         clear: both;
         min-width: 0;
         flex: 1;
+    }
+
+    header {
+        width: 100%;
+        height: 100%;
+    }
+
+    #cover-text {
+        top: 25%;
+        bottom: 25%;
+        left: 20%;
+        position: absolute;
+        
     }
 
 }
