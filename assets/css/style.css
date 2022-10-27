@@ -123,12 +123,15 @@ h2 {
     display: flex;
     height: 300px;
     width: 100%;
+    flex-direction: row;
 }
 
 .container2 {
     display: flex;
-    height: 80px;
+    min-height: 80px;
     width: 100%;
+    flex-direction: row;
+    min-width: 10%;
     
 }
 
@@ -138,13 +141,11 @@ h2 {
     object-fit: cover;
     object-position: center;
     padding: 5px;
-    min-height: 300px;
-    min-width: 300px;
+    min-width: 10%;
 }
 
 .container2 p {
     width: 25%;
-    height: 80px;
     text-align: center;
     vertical-align: center;
     background-color: #252525;
@@ -157,13 +158,23 @@ hr {
     height: 50px;
     width: 100%;
     margin: 5px;
+    border: none;
 }
 
 /* Why Travel section - Home Page */
 
+#travel-outer {
+    height: 30%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
 .travelsection {
     background-color: #252525;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 40px;
     width: 55%;
@@ -177,10 +188,12 @@ hr {
 }
 
 .travelsection img {
-    height: 200px;
-    width: 300px;
+    height: 15%;
+    width: 25%;
     align-self: center;
     padding: 5px;
+    max-height: 200px;
+    max-width: 300px;
 }
 
 .travelsection h2 {
@@ -255,6 +268,7 @@ form div {
     padding: 20px;
     text-align: center;
     color: #fff;
+    
 }
 
 #form-outer {
@@ -302,23 +316,30 @@ input[type=reset] {
     width: 55%;
     margin: auto;
     border: 2px solid #fff;
+    max-width: 55%;
 }
 
 .gamesection .selected {
     align-self: center;
     width: 33%;
+    margin: auto;
+    max-width: 33%;
 }
 
 .gamesection img {
-    height: 200px;
-    width: 300px;
+    height: 15%;
+    width: 25%;
     align-self: center;
     padding: 5px;
+    max-height: 200px;
+    max-width: 300px;
+    margin: auto;
 }
 
 .gamesection h2 {
     margin: 0;
     color: #fff;
+    max-width: 33%;
 }
 
 .gamesection ul li {
@@ -326,4 +347,65 @@ input[type=reset] {
     color: #fff;
     list-style-type: none;
     padding: 2px;
+    margin: auto;
+}
+
+/* media queries */ 
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width:1200px) {
+    
+    #logo {
+        width:100%;
+        margin: 0 auto;
+    }
+
+    .container1 {
+        width:100%;
+        float:left;
+        padding: 0;
+        clear: both;
+    }
+
+    .container2 {
+        width:100%;
+        float:left;
+        padding: 0;
+        clear: both;
+    }
+
+    .travelsection {
+        width: 55%;
+        float: none;
+    }
+}
+
+/* Medium screen sizes from 950px wide and down */
+@media screen and (max-width:950px) {
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    .container1 {
+        width:100%;
+        height: 100%;
+        float:left;
+        padding: 0;
+        clear: both;
+    }
+
+    .container2 {
+        width:100%;
+        height: 100%;
+        float:left;
+        padding: 0;
+        clear: both;
+        min-width: 0;
+        flex: 1;
+    }
+
 }
