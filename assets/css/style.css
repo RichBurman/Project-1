@@ -175,6 +175,7 @@ hr {
     background-color: #252525;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 40px;
     width: 55%;
@@ -184,7 +185,7 @@ hr {
 
 .travelsection .selected {
     align-self: center;
-    width: 33%;
+    flex: 1;
 }
 
 .travelsection img {
@@ -194,6 +195,7 @@ hr {
     padding: 5px;
     max-height: 200px;
     max-width: 300px;
+    flex: 1;
 }
 
 .travelsection h2 {
@@ -311,9 +313,10 @@ input[type=reset] {
 .gamesection {
     background-color: #252525;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 40px;
-    width: 55%;
+    width: 100%;
     margin: auto;
     border: 2px solid #fff;
     max-width: 55%;
@@ -324,6 +327,7 @@ input[type=reset] {
     width: 33%;
     margin: auto;
     max-width: 33%;
+    flex: 1;
 }
 
 .gamesection img {
@@ -334,6 +338,7 @@ input[type=reset] {
     max-height: 200px;
     max-width: 300px;
     margin: auto;
+    flex: 1;
 }
 
 .gamesection h2 {
