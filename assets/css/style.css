@@ -173,6 +173,7 @@ hr {
 
 .travelsection .selected {
     align-self: center;
+    width: 33%;
 }
 
 .travelsection img {
