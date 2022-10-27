@@ -169,12 +169,17 @@ hr {
     width: 55%;
     margin: auto;
     border: 2px solid #fff;
+}
 
+.travelsection .selected {
+    align-self: center;
 }
 
 .travelsection img {
     height: 200px;
     width: 300px;
+    align-self: center;
+    padding: 5px;
 }
 
 .travelsection h2 {
@@ -182,7 +187,7 @@ hr {
     color: #fff;
 }
 
-.travelsection p {
+.travelsection ul li {
     margin: 0;
     color: #fff;
 }
