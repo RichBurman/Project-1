@@ -46,13 +46,19 @@ Users of the website can find out about the luxury coach that will transport sup
 
 - Games Page
     - The page allows the user to see a full list of all the upcoming games that the travel club will be providing transport for. It provides details of the game, the date of the game, the time the game kicks off, Departure time and the cost of the trip.  
-    - As more fixtures are announced, the list will be added. 
+    - The section is valuable to the user, as it allows them to see a full list of the games that the travek club will be travelling to, as more fixtures are announced, the list will be added to, which will provide the user with more options of games to pick from. 
+
+    ![Image of Game Page](../Project-1/assets/images/README/Upcoming_games1.jpg)
 
 - Sign Up Page
+    - The page allows the users to sign up to the Manchester United Supporters Away Travel Club. The user is asked to submit their Name, Email, Address, what age bracket they are in, whether they are currently a season ticket holder. The user is able to select which games they would be interested in travelling to with the Travel Club, they can as many options as they wish. 
 
-Form
+    ![Image of Sign Up Page](../Project-1/assets/images/README/sign_up.jpg)
 
-Testing
+
+## Testing
+
+
 
 Validation Testing
 HTML
@@ -63,5 +69,9 @@ Unfixed Bugs
 Deployment
 
 Credits
+
+Content
+
+Media
 
 Contents
