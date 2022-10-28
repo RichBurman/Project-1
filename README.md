@@ -19,41 +19,41 @@ Users of the website can find out about the luxury coach that will transport sup
 - The landing page and hero image
     - The landing includes a hero image and cover text which allows the user to see what the website is about. The image includes an animation which should draw the user into the page, whilst the cover text details clearly what the website is about. 
 
-    ![Image of Landing Page](../Project-1/assets/images/README/Landing_Page.jpg)
+    ![Image of Landing Page](assets/images/README/Landing_Page.jpg)
 
 - Upcoming Games section
     - The upcoming games secton allows the user to see what upcoming games the travel club will be attending in the future. It is limited to 4 upcoming games. 
     - This section allows the user to find what the upcoming games are quickly. It provides details of the game, the date of the game, the time the game kicks off, Departure time and the cost of the trip.  
 
-    ![Image of Upcoming Games Section](../Project-1/assets/images/README/Upcoming_games.jpg)
+    ![Image of Upcoming Games Section](assets/images/README/Upcoming_games.jpg)
 
 - Why Travel with Manchester United Supporter Away Travel Club section
     - This sections allows the user to see the benefits of travelling with the travel club. It details the luxury coach travel, the facilities and the wide range of refreshments available on the coach. 
     - The user will see the value of travelling with the Travel club and understand it is more than just transport to the football game, but allows the user to travel in luxury and enjoy refreshments. 
 
-    ![Image of Why Travel Section](../Project-1/assets/images/README/Why_Travel_section.jpg)
+    ![Image of Why Travel Section](assets/images/README/Why_Travel_section.jpg)
 
 - Google Maps
     - This section allows the user to see the location of where the travel coach departs from using Google Maps. It allows the user to find the location of departure without having to leave the website. 
 
-    ![Image of google maps](../Project-1/assets/images/README/googlemaps.jpg)
+    ![Image of google maps](assets/images/README/googlemaps.jpg)
 
 - Footer
     - The footer includes links to all of the social media sites for the Manchester United Supporters Away Travel Club. 
     - The footer allows the user further access to the Manchester United Supporters Away Travel Club through their social media sites. 
 
-    ![Image of footer](../Project-1/assets/images/README/Footer.jpg)
+    ![Image of footer](assets/images/README/Footer.jpg)
 
 - Games Page
     - The page allows the user to see a full list of all the upcoming games that the travel club will be providing transport for. It provides details of the game, the date of the game, the time the game kicks off, Departure time and the cost of the trip.  
     - The section is valuable to the user, as it allows them to see a full list of the games that the travek club will be travelling to, as more fixtures are announced, the list will be added to, which will provide the user with more options of games to pick from. 
 
-    ![Image of Game Page](../Project-1/assets/images/README/Upcoming_games1.jpg)
+    ![Image of Game Page](assets/images/README/Upcoming_games1.jpg)
 
 - Sign Up Page
     - The page allows the users to sign up to the Manchester United Supporters Away Travel Club. The user is asked to submit their Name, Email, Address, what age bracket they are in, whether they are currently a season ticket holder. The user is able to select which games they would be interested in travelling to with the Travel Club, they can as many options as they wish. 
 
-    ![Image of Sign Up Page](../Project-1/assets/images/README/sign_up.jpg)
+    ![Image of Sign Up Page](assets/images/README/sign_up.jpg)
 
 - Possible Future Features to Implement
 
@@ -69,15 +69,15 @@ Users of the website can find out about the luxury coach that will transport sup
 
 - index.html 
 
-![Image of no errors](../Project-1/assets/images/README/Doc_noerrors_html.jpg)
+![Image of no errors](assets/images/README/Doc_noerrors_html.jpg)
 
 - games.html
 
-![Image of no errors](../Project-1/assets/images/README/Doc_noerrors_html.jpg)
+![Image of no errors](assets/images/README/Doc_noerrors_html.jpg)
 
 - signup.html 
 
-![Image of no errors](../Project-1/assets/images/README/Doc_noerrors_html.jpg)
+![Image of no errors](assets/images/README/Doc_noerrors_html.jpg)
 
 ### CSS
 
@@ -85,7 +85,7 @@ Users of the website can find out about the luxury coach that will transport sup
 
 - style.css
 
-![Image of no errors](../Project-1/assets/images/README/css_noerrors.jpg)
+![Image of no errors](assets/images/README/css_noerrors.jpg)
 
 ### Responsive
 
@@ -104,7 +104,7 @@ Users of the website can find out about the luxury coach that will transport sup
     - Best Practices 92
     - SEO 97
 
-![Lighthouse score](../Project-1/assets/images/README/lighthouse_test.jpg)
+![Lighthouse score](assets/images/README/lighthouse_test.jpg)
 
 ### Unfixed Bugs
 
