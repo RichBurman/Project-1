@@ -122,45 +122,47 @@ h2 {
 
 .container1 {
     display: flex;
-    height: 300px;
     width: 100%;
-    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
-
-.container2 {
+.container1 .box {
+    max-width: 24%;
+}
+.container1 .box-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
     display: flex;
-    min-height: 80px;
-    width: 100%;
-    flex-direction: row;
-    min-width: 10%;
-    
+    align-items: center;
+    justify-content: center;
 }
-
 .container1 img {
-    width: 25%;
-    height: 300px;
-    object-fit: cover;
-    object-position: center;
-    padding: 5px;
-    min-width: 10%;
+    width: inherit;
+    overflow: hidden;
+    aspect-ratio: 1;
 }
-
-.container2 p {
-    width: 25%;
+.container1 img:hover {
+    opacity: 0.9;
+}
+.container1 p {
+    max-width: 100%;
     text-align: center;
     vertical-align: center;
     background-color: #252525;
     padding: 5px;
     color: #fff;
-    border: 5px solid #fff;
 }
-
 hr {
     height: 50px;
     width: 100%;
     margin: 5px;
     border: none;
 }
+
 
 /* Why Travel section - Home Page */
 
@@ -328,7 +330,6 @@ input[type=reset] {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 40px;
-    width: 100%;
     margin: auto;
     border: 2px solid #fff;
     max-width: 55%;
@@ -351,6 +352,7 @@ input[type=reset] {
     max-width: 300px;
     margin: auto;
     flex: 1;
+    aspect-ratio: 1;
 }
 
 .gamesection h2 {
@@ -377,18 +379,8 @@ input[type=reset] {
         margin: 0 auto;
     }
 
-    .container1 {
-        width:100%;
-        float:left;
-        padding: 0;
-        clear: both;
-    }
-
-    .container2 {
-        width:100%;
-        float:left;
-        padding: 0;
-        clear: both;
+    .container1 .box {
+        max-width: 49%;
     }
 
     .travelsection {
@@ -451,6 +443,10 @@ input[type=reset] {
         margin-left: 0;
         margin-right: 0;
         width: auto;
+    }
+
+    .container1 .box {
+        max-width: 100%;
     }
 
 }
