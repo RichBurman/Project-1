@@ -15,11 +15,12 @@ Users of the website can find out about the luxury coach that will transport sup
     - It allows users to navigate to any page on the website without having to use any browser buttons such as 'back' or 'forward'.
 
     ![Image of Navigation Bar](assets/images/README/navigation_Bar.jpg)
+    
 
 - The landing page and hero image
     - The landing includes a hero image and cover text which allows the user to see what the website is about. The image includes an animation which should draw the user into the page, whilst the cover text details clearly what the website is about. 
 
-    ![Image of Landing Page](assets/images/README/Landing_Page.jpg)
+    <img src="./assets/images/README/Landing_Page.jpg" width="400" height="300" alt="Image of Landing Page">
 
 - Upcoming Games section
     - The upcoming games secton allows the user to see what upcoming games the travel club will be attending in the future. It is limited to 4 upcoming games. 
@@ -31,7 +32,8 @@ Users of the website can find out about the luxury coach that will transport sup
     - This sections allows the user to see the benefits of travelling with the travel club. It details the luxury coach travel, the facilities and the wide range of refreshments available on the coach. 
     - The user will see the value of travelling with the Travel club and understand it is more than just transport to the football game, but allows the user to travel in luxury and enjoy refreshments. 
 
-    ![Image of Why Travel Section](assets/images/README/Why_Travel_section.jpg)
+    
+    <img src="./assets/images/README/Why_Travel_section.jpg" width="600" height="500" alt="Image of Why Travel Section">
 
 - Google Maps
     - This section allows the user to see the location of where the travel coach departs from using Google Maps. It allows the user to find the location of departure without having to leave the website. 
@@ -48,12 +50,13 @@ Users of the website can find out about the luxury coach that will transport sup
     - The page allows the user to see a full list of all the upcoming games that the travel club will be providing transport for. It provides details of the game, the date of the game, the time the game kicks off, Departure time and the cost of the trip.  
     - The section is valuable to the user, as it allows them to see a full list of the games that the travek club will be travelling to, as more fixtures are announced, the list will be added to, which will provide the user with more options of games to pick from. 
 
-    ![Image of Game Page](assets/images/README/Upcoming_games1.jpg)
+    
+    <img src="./assets/images/README/Upcoming_games1.jpg" width="600" height="500" alt="Image of Upcoming Games Section">
 
 - Sign Up Page
     - The page allows the users to sign up to the Manchester United Supporters Away Travel Club. The user is asked to submit their Name, Email, Address, what age bracket they are in, whether they are currently a season ticket holder. The user is able to select which games they would be interested in travelling to with the Travel Club, they can as many options as they wish. 
 
-    ![Image of Sign Up Page](assets/images/README/sign_up.jpg)
+    <img src="./assets/images/README/sign_up.jpg" width="600" height="500" alt="Image of Sign Up Page">
 
 - Possible Future Features to Implement
 
