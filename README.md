@@ -2,7 +2,7 @@
 
 # Manchester United Supporters Away Travel Club
 
-The Manchester United Supporters Away Travel Club website is for Manchester United supporters looking for travel to football matches to see Manchester United. The website allows supporters to discover what travel options are available for future football matches and sign up to the club. 
+The Manchester United Supporters Away Travel Club website is for Manchester United supporters looking for travel to football matches to see Manchester United. The website allows supporters to discover what travel options are available for future football matches and sign up to the club. It allows supporters with match tickets from Manchester United football matches to have access to a travel club which provides first class travel to Manchester United football matches throughout England and Europe. 
 
 Users of the website can find out about the luxury coach that will transport supporters to the games, what facilitles are on the coach, what games coming up that they can look to book the coach for and a sign up form. The site is targetting Manchester United football supporters who are wanting an exciting mode of transport to football matches throughout Europe. 
 
@@ -91,7 +91,10 @@ Users of the website can find out about the luxury coach that will transport sup
 
 - Am I responsive: The site is responsive to different screen sizes. Tested through [Am I Responsive?](https://amiresponsive.co.uk/)
 
-- Website tested using Chrome devtools on various screen sizes
+- Website tested using Chrome devtools on various screen sizes. 
+- Media Queries were added to the CSS Stylesheet:
+    - For larger to medium screens size from 1200px wide and down
+    - Medium screen sizes from 950px wide and down
 
 ### Lighthouse
 
@@ -106,6 +109,8 @@ Users of the website can find out about the luxury coach that will transport sup
 ### Unfixed Bugs
 
 - The flexbox css styling on the Games page does not line up all the images as neatly as I would like. This is something I would want to work on and improve in the future. 
+
+- Images that are used on the site are rather large in size and they could be adjusted to allow for faster loading times on those with a slower internet connection
 
 ## Deployment
 
@@ -123,6 +128,13 @@ Contents
 - Research using [w3schools](https://www.w3schools.com/css/css3_flexbox.asp) to learn about how to use flexbox
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - The fonts were taken from [Google Fonts](https://fonts.google.com/)
+- The football teams used in the website are members of the [Premier League](https://www.premierleague.com/)
+    - [Manchester United](https://www.manutd.com/)
+    - [Arsenal FC](https://www.arsenal.com/)
+    - [Chelsea FC](https://www.chelseafc.com/en)
+    - [Manchester City FC](https://www.mancity.com/)
+    - [Tottenham Hotspur FC](https://www.tottenhamhotspur.com/)
+
 
 Media
 
