@@ -6,6 +6,9 @@ body {
     font-family: Oxygen, sans-serif;
     font-weight: 400;
     color: #3a3a3a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* headings and logo */ 
@@ -242,6 +245,7 @@ hr {
 
 footer a {
     color: #fff;
+    margin-top: auto;
 
 }
 
