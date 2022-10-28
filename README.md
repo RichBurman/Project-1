@@ -137,8 +137,14 @@ Contents
     - [Chelsea FC](https://www.chelseafc.com/en)
     - [Manchester City FC](https://www.mancity.com/)
     - [Tottenham Hotspur FC](https://www.tottenhamhotspur.com/)
+- Information take from [Web.Dev](https://web.dev/serve-images-with-correct-dimensions/#the-good-approach) to reduce images size to improve loading performance speeds. After reading this webite I added 'aspect-ratio= 16/9' to my imgs to help improve performance speeds on lighthouse score. 
 
 
 Media
 
 - All images were taken from [Unsplash](https://unsplash.com/)
+- Screenshots taken from the following website for this README
+    - [Lighthouse](https://web.dev/measure/)
+    - [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+    - [W3C validator](https://validator.w3.org/)
+    - [Am I Responsive?](https://amiresponsive.co.uk/)
