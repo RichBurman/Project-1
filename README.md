@@ -102,10 +102,10 @@ Users of the website can find out about the luxury coach that will transport sup
 ### Lighthouse
 
 - Website tested on lighthouse
-    - Perfomance 91
+    - Perfomance 53
     - Accessibility 97
     - Best Practices 92
-    - SEO 97
+    - SEO 93
 
 ![Lighthouse score](assets/images/README/lighthouse_test.jpg)
 
