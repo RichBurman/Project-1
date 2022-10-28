@@ -244,7 +244,10 @@ hr {
 footer a {
     color: #fff;
     margin-top: auto;
+}
 
+footer a:hover {
+    color: black;
 }
 
 .social-networks {
