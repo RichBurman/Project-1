@@ -240,24 +240,28 @@ hr {
 
 /* social links footer */
 
-footer {
-    height: 150px;
+footer a {
+    color: #fff;
+
 }
 
 .social-networks {
-    text-align: center;
+    display: flex;
+    align-items: center;
     background-color: #3a3a3a;
+    justify-content: center;
 }
 
-.social-networks>li {
-    display: inline;
+.social-networks ul {
+    display: flex;
+    align-items: center;
 }
 
-.social-networks i {
+.social-networks li {
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    padding: 10px;
     color: #fff;
+    list-style-type: none;
 }
 
 /* form */
@@ -409,28 +413,6 @@ input[type=reset] {
         float: left;
         margin-bottom: 20px;
         line-height: 25px;
-    }
-    .container1 {
-        width:100%;
-        height: 100%;
-        float:left;
-        padding: 0;
-        clear: both;
-    }
-
-    .container2 {
-        width:100%;
-        height: 100%;
-        float:left;
-        padding: 0;
-        clear: both;
-        min-width: 0;
-        flex: 1;
-    }
-
-    header {
-        width: 100%;
-        height: 100%;
     }
 
     #cover-text {
