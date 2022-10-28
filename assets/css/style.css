@@ -143,7 +143,7 @@ h2 {
 .container1 img {
     width: inherit;
     overflow: hidden;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
 }
 .container1 img:hover {
     opacity: 0.9;
@@ -352,7 +352,7 @@ input[type=reset] {
     max-width: 300px;
     margin: auto;
     flex: 1;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
 }
 
 .gamesection h2 {

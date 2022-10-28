@@ -58,6 +58,21 @@ Users of the website can find out about the luxury coach that will transport sup
 
 ## Testing
 
+### HTML
+
+- index.html 
+
+![Image of no errors](../Project-1/assets/images/README/Doc_noerrors_html.jpg)
+
+- games.html
+
+![Image of no errors](../Project-1/assets/images/README/Doc_noerrors_html.jpg)
+
+- signup.html 
+
+![Image of no errors](../Project-1/assets/images/README/Doc_noerrors_html.jpg)
+
+
 
 
 Validation Testing
