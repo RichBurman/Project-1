@@ -272,14 +272,24 @@ form div {
     padding: 20px;
     text-align: center;
     color: #fff;
-    
+    text-align: center;
+    display: block;
+
+}
+
+form {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: auto;
 }
 
 #form-outer {
-    height: 80%;
+    height: auto;
     width: 100%;
     overflow: hidden;
     position: relative;
+    padding-top: 50px;
+    display: inline-block;
 }
 
 input[type=submit] {
@@ -435,6 +445,12 @@ input[type=reset] {
         flex: 1;
         float:left;
         padding:10%;
+    }
+
+    form {
+        margin-left: 0;
+        margin-right: 0;
+        width: auto;
     }
 
 }
