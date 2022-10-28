@@ -14,7 +14,7 @@ Users of the website can find out about the luxury coach that will transport sup
     - Featured on all three pages at the top of each page. It includes links to the logo (which links back to the index page), Games and Sign Up. The navigation bar is the same on each page to allow easy navigation throughout the site.
     - It allows users to navigate to any page on the website without having to use any browser buttons such as 'back' or 'forward'.
 
-    ![Image of Navigation Bar](../Project-1/assets/images/README/Navigation_bar.jpg)
+    ![Image of Navigation Bar](../Project-1/assets/images/README/navigation_Bar.jpg)
 
 - The landing page and hero image
     - The landing includes a hero image and cover text which allows the user to see what the website is about. The image includes an animation which should draw the user into the page, whilst the cover text details clearly what the website is about. 
@@ -55,10 +55,17 @@ Users of the website can find out about the luxury coach that will transport sup
 
     ![Image of Sign Up Page](../Project-1/assets/images/README/sign_up.jpg)
 
+- Possible Future Features to Implement
+
+    - A Gallery page where users can see other users who have been on trips with the travel club. This could also include a youtube videos of trips. 
+    - A review section where users can see reviews from other users to gain an independent review of the travel club. 
+
 
 ## Testing
 
 ### HTML
+
+- No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 
 - index.html 
 
@@ -72,21 +79,51 @@ Users of the website can find out about the luxury coach that will transport sup
 
 ![Image of no errors](../Project-1/assets/images/README/Doc_noerrors_html.jpg)
 
+### CSS
 
+- No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 
+- style.css
 
-Validation Testing
-HTML
-CSS
-Accessibility
-Unfixed Bugs
+![Image of no errors](../Project-1/assets/images/README/css_noerrors.jpg)
 
-Deployment
+### Responsive
 
-Credits
+- Am I responsive: The site is responsive to different screen sizes. Tested through [Am I Responsive?](https://amiresponsive.co.uk/)
 
-Content
+- Website tested using Chrome devtools on various screen sizes
+
+### Lighthouse
+
+- Website tested on lighthouse
+    - Perfomance 91
+    - Accessibility 97
+    - Best Practices 92
+    - SEO 97
+
+![Lighthouse score](../Project-1/assets/images/README/lighthouse_test.jpg)
+
+### Unfixed Bugs
+
+- The flexbox css styling on the Games page does not line up all the images as neatly as I would like. This is something I would want to work on and improve in the future. 
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In GitHub repository, naviagte to the Settings tab
+    - Click on Pages
+    - Select main branch and GitHub builds site from main branch
+
+The live link is here - https://richburman.github.io/Project-1/
+
+## Credits
+
+Contents
+
+- Research using [w3schools](https://www.w3schools.com/css/css3_flexbox.asp) to learn about how to use flexbox
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts were taken from [Google Fonts](https://fonts.google.com/)
 
 Media
 
-Contents
+- All images were taken from [Unsplash](https://unsplash.com/)
