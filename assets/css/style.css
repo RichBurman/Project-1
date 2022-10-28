@@ -75,7 +75,7 @@ h2 {
 }
 
 #hero-outer {
-    height: 600px;
+    height: auto;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -165,7 +165,7 @@ hr {
 /* Why Travel section - Home Page */
 
 #travel-outer {
-    height: 30%;
+    height: auto;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -306,7 +306,7 @@ input[type=reset] {
 /* Games Pages */
 
 #game-outer {
-    height: 80%;
+    height: auto;
     width: 100%;
     overflow: hidden;
     position: relative;
