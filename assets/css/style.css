@@ -26,27 +26,37 @@ h2 {
 }
 
 #logo {
-    float: left;
+    display: flex;
+    justify-content: left;
     font-size: 280%;
     margin-left: 30px;
+}
+
+header a {
+    text-decoration: none;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
-#menu, #logo {
-    line-height: 75px;
+#menu ul {
+    display: flex;
+    align-items: center;
+    
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
+    padding: 5px;
+    font-size: 130%;
     margin-right: 30px;
 }
+
 
 #menu a {
     text-decoration: none;
@@ -60,6 +70,8 @@ h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+
 
 /* hero image */
 
