@@ -14,7 +14,7 @@ Users of the website can find out about the luxury coach that will transport sup
     - Featured on all three pages at the top of each page. It includes links to the logo (which links back to the index page), Games and Sign Up. The navigation bar is the same on each page to allow easy navigation throughout the site.
     - It allows users to navigate to any page on the website without having to use any browser buttons such as 'back' or 'forward'.
 
-    ![Image of Navigation Bar](../Project-1/assets/images/README/navigation_Bar.jpg)
+    ![Image of Navigation Bar](assets/images/README/navigation_Bar.jpg)
 
 - The landing page and hero image
     - The landing includes a hero image and cover text which allows the user to see what the website is about. The image includes an animation which should draw the user into the page, whilst the cover text details clearly what the website is about. 
