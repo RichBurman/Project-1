@@ -81,7 +81,7 @@ header a {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero\ image.jpg) no-repeat center center;
+    background: url(../images/hero_image.jpg) no-repeat center center;
     background-size: cover;
 
     animation-name: hero-zoom;
