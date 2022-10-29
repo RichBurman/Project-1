@@ -109,6 +109,16 @@ Users of the website can find out about the luxury coach that will transport sup
 
 ![Lighthouse score](assets/images/README/lighthouse_test.jpg)
 
+To improve this, I used [Optimizilla](https://imagecompressor.com/) to reduce the size of the images on the website. After compressing all of the images, I performed the lighthouse test again which returned an huge improvement on the performance score without affecting images quality on the site. 
+
+- After compressing images - Website tested on lighthouse 
+    - Perfomance 53
+    - Accessibility 97
+    - Best Practices 92
+    - SEO 93
+
+![Lighthouse score](assets/images/README/New_Performance_Compressed.jpg)
+
 ### Unfixed Bugs
 
 - The flexbox css styling on the Games page does not line up all the images as neatly as I would like. This is something I would want to work on and improve in the future. 
@@ -126,7 +136,7 @@ The live link is here - https://richburman.github.io/Project-1/
 
 ## Credits
 
-Contents
+### Contents
 
 - Research using [w3schools](https://www.w3schools.com/css/css3_flexbox.asp) to learn about how to use flexbox
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
@@ -140,11 +150,20 @@ Contents
 - Information take from [Web.Dev](https://web.dev/serve-images-with-correct-dimensions/#the-good-approach) to reduce images size to improve loading performance speeds. After reading this webite I added 'aspect-ratio= 16/9' to my imgs to help improve performance speeds on lighthouse score. 
 
 
-Media
+### Media
 
 - All images were taken from [Unsplash](https://unsplash.com/)
+- All images were compressed using [Optimizilla](https://imagecompressor.com/) to aid website performance.
 - Screenshots taken from the following website for this README
     - [Lighthouse](https://web.dev/measure/)
     - [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
     - [W3C validator](https://validator.w3.org/)
     - [Am I Responsive?](https://amiresponsive.co.uk/)
+
+## Acknowledgements
+
+- Thank you to my mentor for your support throughout my project. It has been greatly appreciated. 
+- Thank you to the CI slack community for your support throughout my project. 
+
+
+
